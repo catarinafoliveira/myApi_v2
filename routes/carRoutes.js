@@ -7,7 +7,7 @@ router.get('/', CarController.getAllCars);
 router.get('/id/:id', CarController.getCarById);
 router.get('/plate/:plate', CarController.getCarByPlate);
 router.get('/owner/:dl', CarController.getCarsByOwnerDriverLicence);
-router.put('/',CarController.updateCar);
-router.delete('/',CarController.deleteCar);
+router.put('/:id',CarController.updateCar);
+router.delete('/:id',CarController.deleteCar);
 
 module.exports = router;
