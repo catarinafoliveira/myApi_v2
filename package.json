@@ -1,0 +1,13 @@
+{
+  "name": "myapi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "punycode": "^2.3.1"
+  }
+}
